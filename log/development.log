@@ -295,3 +295,513 @@ Processing by ManageController#index as HTML
 Completed 200 OK in 196ms (Views: 190.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/manage/index" for ::1 at 2020-02-24 14:29:47 +0100
+Processing by ManageController#index as HTML
+  Rendering manage/index.html.erb within layouts/application
+  Rendered manage/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 545ms (Views: 516.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-02-24 14:29:52 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Library/Ruby/Gems/2.6.0/gems/railties-5.2.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Library/Ruby/Gems/2.6.0/gems/railties-5.2.4.1/lib/rails/templates/rails/welcome/index.html.erb (5.0ms)
+Completed 200 OK in 13ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-02-24 14:30:00 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Library/Ruby/Gems/2.6.0/gems/railties-5.2.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Library/Ruby/Gems/2.6.0/gems/railties-5.2.4.1/lib/rails/templates/rails/welcome/index.html.erb (3.1ms)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-02-24 14:39:51 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Library/Ruby/Gems/2.6.0/gems/railties-5.2.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Library/Ruby/Gems/2.6.0/gems/railties-5.2.4.1/lib/rails/templates/rails/welcome/index.html.erb (4.7ms)
+Completed 200 OK in 26ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/manage/index" for ::1 at 2020-02-24 14:39:55 +0100
+  
+SyntaxError (/Users/ahmidimohamed/Desktop/H2c_ProjectNode/rubyh2c/h2xapp/Ruby_Project/app/controllers/manage_controller.rb:14: syntax error, unexpected end, expecting end-of-input):
+  
+app/controllers/manage_controller.rb:14: syntax error, unexpected end, expecting end-of-input
+Started GET "/manage/index" for ::1 at 2020-02-24 14:40:08 +0100
+  
+SyntaxError (/Users/ahmidimohamed/Desktop/H2c_ProjectNode/rubyh2c/h2xapp/Ruby_Project/app/controllers/manage_controller.rb:14: syntax error, unexpected end, expecting end-of-input):
+  
+app/controllers/manage_controller.rb:14: syntax error, unexpected end, expecting end-of-input
+Started GET "/manage/index" for ::1 at 2020-02-24 14:40:09 +0100
+  
+SyntaxError (/Users/ahmidimohamed/Desktop/H2c_ProjectNode/rubyh2c/h2xapp/Ruby_Project/app/controllers/manage_controller.rb:14: syntax error, unexpected end, expecting end-of-input):
+  
+app/controllers/manage_controller.rb:14: syntax error, unexpected end, expecting end-of-input
+Started GET "/manage/index" for ::1 at 2020-02-24 14:40:24 +0100
+  
+SyntaxError (/Users/ahmidimohamed/Desktop/H2c_ProjectNode/rubyh2c/h2xapp/Ruby_Project/app/controllers/manage_controller.rb:14: syntax error, unexpected end, expecting end-of-input):
+  
+app/controllers/manage_controller.rb:14: syntax error, unexpected end, expecting end-of-input
+Started GET "/manage/index" for ::1 at 2020-02-24 14:41:03 +0100
+  
+SyntaxError (/Users/ahmidimohamed/Desktop/H2c_ProjectNode/rubyh2c/h2xapp/Ruby_Project/app/controllers/manage_controller.rb:12: syntax error, unexpected end, expecting end-of-input):
+  
+app/controllers/manage_controller.rb:12: syntax error, unexpected end, expecting end-of-input
+Started GET "/" for ::1 at 2020-02-24 14:41:07 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Library/Ruby/Gems/2.6.0/gems/railties-5.2.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Library/Ruby/Gems/2.6.0/gems/railties-5.2.4.1/lib/rails/templates/rails/welcome/index.html.erb (2.2ms)
+Completed 200 OK in 6ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/manage/index" for ::1 at 2020-02-24 14:42:25 +0100
+  
+SyntaxError (/Users/ahmidimohamed/Desktop/H2c_ProjectNode/rubyh2c/h2xapp/Ruby_Project/app/controllers/manage_controller.rb:12: syntax error, unexpected end, expecting end-of-input):
+  
+app/controllers/manage_controller.rb:12: syntax error, unexpected end, expecting end-of-input
+Started GET "/manage/index" for ::1 at 2020-02-24 14:42:51 +0100
+Processing by ManageController#index as HTML
+  Rendering manage/index.html.erb within layouts/application
+  Rendered manage/index.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     7: <p>Find me in app/views/manage/index.html.erb</p>
+     8: <p>Hy ahmidi mohamed</p>
+     9: 
+    10: <% @fruit.each do |item| %>
+    11: <%= "fruist #{item}"  %>
+    12: </br>
+    13:     <% end %>
+  
+app/views/manage/index.html.erb:10:in `_app_views_manage_index_html_erb___3612194427715870309_70345163069940'
+app/controllers/manage_controller.rb:3:in `index'
+Started GET "/manage/index" for ::1 at 2020-02-24 14:43:59 +0100
+Processing by ManageController#index as HTML
+  Rendering manage/index.html.erb within layouts/application
+  Rendered manage/index.html.erb within layouts/application (5.2ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     7: <p>Find me in app/views/manage/index.html.erb</p>
+     8: <p>Hy ahmidi mohamed</p>
+     9: 
+    10: <% @fruit.each do |item| %>
+    11: <%= "fruist #{item}"  %>
+    12: </br>
+    13:     <% end %>
+  
+app/views/manage/index.html.erb:10:in `_app_views_manage_index_html_erb___4125246484308150944_70260027596520'
+app/controllers/manage_controller.rb:3:in `index'
+Started GET "/manage/index" for ::1 at 2020-02-24 14:44:00 +0100
+Processing by ManageController#index as HTML
+  Rendering manage/index.html.erb within layouts/application
+  Rendered manage/index.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     7: <p>Find me in app/views/manage/index.html.erb</p>
+     8: <p>Hy ahmidi mohamed</p>
+     9: 
+    10: <% @fruit.each do |item| %>
+    11: <%= "fruist #{item}"  %>
+    12: </br>
+    13:     <% end %>
+  
+app/views/manage/index.html.erb:10:in `_app_views_manage_index_html_erb___4125246484308150944_70260032996360'
+app/controllers/manage_controller.rb:3:in `index'
+Started GET "/manage/home" for ::1 at 2020-02-24 14:44:06 +0100
+Processing by ManageController#home as HTML
+  Rendering manage/home.html.erb within layouts/application
+  Rendered manage/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 210ms (Views: 208.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/manage/index" for ::1 at 2020-02-24 14:45:07 +0100
+Processing by ManageController#index as HTML
+  Rendering manage/index.html.erb within layouts/application
+  Rendered manage/index.html.erb within layouts/application (4.2ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     7: <p>Find me in app/views/manage/index.html.erb</p>
+     8: <p>Hy ahmidi mohamed</p>
+     9: 
+    10: <% @fruit.each do |item| %>
+    11: <%= "fruist #{item}"  %>
+    12: </br>
+    13:     <% end %>
+  
+app/views/manage/index.html.erb:10:in `_app_views_manage_index_html_erb__4169509379767387634_70285285424740'
+app/controllers/manage_controller.rb:3:in `index'
+Started GET "/index" for ::1 at 2020-02-24 14:46:29 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/manage/index" for ::1 at 2020-02-24 14:46:34 +0100
+Processing by ManageController#index as HTML
+  Rendering manage/index.html.erb within layouts/application
+  Rendered manage/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     7: <p>Find me in app/views/manage/index.html.erb</p>
+     8: <p>Hy ahmidi mohamed</p>
+     9: 
+    10: <% @fruit.each do |item| %>
+    11: <%= "fruist #{item}"  %>
+    12: </br>
+    13:     <% end %>
+  
+app/views/manage/index.html.erb:10:in `_app_views_manage_index_html_erb__3167093306106544181_70125176849200'
+app/controllers/manage_controller.rb:3:in `index'
+Started GET "/manage/index" for ::1 at 2020-02-24 14:47:09 +0100
+Processing by ManageController#index as HTML
+  Rendering manage/index.html.erb within layouts/application
+  Rendered manage/index.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     7: <p>Find me in app/views/manage/index.html.erb</p>
+     8: <p>Hy ahmidi mohamed</p>
+     9: 
+    10: <% @fruit.each do |item| %>
+    11: <%= "fruist #{item}"  %>
+    12: </br>
+    13:     <% end %>
+  
+app/views/manage/index.html.erb:10:in `_app_views_manage_index_html_erb___2956287076424431341_70323224320340'
+app/controllers/manage_controller.rb:3:in `index'
+Started GET "/manage/home" for ::1 at 2020-02-24 14:47:14 +0100
+Processing by ManageController#home as HTML
+  Rendering manage/home.html.erb within layouts/application
+  Rendered manage/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 244ms (Views: 243.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/manage/index" for ::1 at 2020-02-24 14:47:54 +0100
+Processing by ManageController#index as HTML
+  Rendering manage/index.html.erb within layouts/application
+  Rendered manage/index.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     7: <p>Find me in app/views/manage/index.html.erb</p>
+     8: <p>Hy ahmidi mohamed</p>
+     9: 
+    10: <% @fruit.each do |item| %>
+    11: <%= "fruist #{item}"  %>
+    12: </br>
+    13:     <% end %>
+  
+app/views/manage/index.html.erb:10:in `_app_views_manage_index_html_erb__4349054089019369427_70212742602360'
+app/controllers/manage_controller.rb:3:in `index'
+Started GET "/manage/index" for ::1 at 2020-02-24 14:48:02 +0100
+Processing by ManageController#index as HTML
+  Rendering manage/index.html.erb within layouts/application
+  Rendered manage/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     7: <p>Find me in app/views/manage/index.html.erb</p>
+     8: <p>Hy ahmidi mohamed</p>
+     9: 
+    10: <% @fruit.each do |item| %>
+    11: <%= "fruist #{item}"  %>
+    12: </br>
+    13:     <% end %>
+  
+app/views/manage/index.html.erb:10:in `_app_views_manage_index_html_erb__4349054089019369427_70212743184980'
+app/controllers/manage_controller.rb:3:in `index'
+Started GET "/manage/home" for ::1 at 2020-02-24 14:48:06 +0100
+Processing by ManageController#home as HTML
+  Rendering manage/home.html.erb within layouts/application
+  Rendered manage/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 195ms (Views: 193.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/manage/home" for ::1 at 2020-02-24 14:49:02 +0100
+Processing by ManageController#home as HTML
+  Rendering manage/home.html.erb within layouts/application
+  Rendered manage/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 188ms (Views: 181.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/manage/index" for ::1 at 2020-02-24 14:49:07 +0100
+Processing by ManageController#index as HTML
+  Rendering manage/index.html.erb within layouts/application
+  Rendered manage/index.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     7: <p>Find me in app/views/manage/index.html.erb</p>
+     8: <p>Hy ahmidi mohamed</p>
+     9: 
+    10: <% @fruit.each do |item| %>
+    11: <%= "fruist #{item}"  %>
+    12: </br>
+    13:     <% end %>
+  
+app/views/manage/index.html.erb:10:in `_app_views_manage_index_html_erb__1147361839392604183_70249930409060'
+app/controllers/manage_controller.rb:3:in `index'
+Started GET "/" for ::1 at 2020-02-24 16:02:35 +0100
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.4.1) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.4.1) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/manage/index" for ::1 at 2020-02-24 16:02:40 +0100
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.4.1) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.4.1) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/manage/home" for ::1 at 2020-02-24 16:02:49 +0100
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.4.1) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.4.1) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/manage/home" for ::1 at 2020-02-24 16:02:51 +0100
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.4.1) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.4.1) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/manage/home" for ::1 at 2020-02-24 16:02:52 +0100
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.4.1) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.4.1) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
