@@ -1,0 +1,297 @@
+Started GET "/" for ::1 at 2020-02-23 17:39:22 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Library/Ruby/Gems/2.6.0/gems/railties-5.2.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Library/Ruby/Gems/2.6.0/gems/railties-5.2.4.1/lib/rails/templates/rails/welcome/index.html.erb (3.7ms)
+Completed 200 OK in 19ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/manage/index" for ::1 at 2020-02-23 17:39:29 +0100
+Processing by ManageController#index as HTML
+  Rendering manage/index.html.erb within layouts/application
+  Rendered manage/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 444ms (Views: 442.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/manage/index" for ::1 at 2020-02-23 17:41:03 +0100
+Processing by ManageController#index as HTML
+  Rendering manage/index.html.erb within layouts/application
+  Rendered manage/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 209ms (Views: 201.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/manage/index" for ::1 at 2020-02-23 17:42:46 +0100
+Processing by ManageController#index as HTML
+  Rendering manage/home.html.erb within layouts/application
+  Rendered manage/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 218ms (Views: 211.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/manage/index" for ::1 at 2020-02-23 17:44:29 +0100
+Processing by ManageController#index as HTML
+  Rendering manage/home.html.erb within layouts/application
+  Rendered manage/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 213ms (Views: 204.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/manage/home" for ::1 at 2020-02-23 17:44:33 +0100
+Processing by ManageController#home as HTML
+  Rendering manage/index.html.erb within layouts/application
+  Rendered manage/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/manage/home" for ::1 at 2020-02-23 17:49:06 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/manage/home"):
+  
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/manage/index" for ::1 at 2020-02-24 06:22:33 +0100
+Processing by ManageController#index as HTML
+  Rendering manage/home.html.erb within layouts/application
+  Rendered manage/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 220ms (Views: 214.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/manage/index" for ::1 at 2020-02-24 06:23:21 +0100
+Processing by ManageController#index as HTML
+  Rendering manage/index.html.erb within layouts/application
+  Rendered manage/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 209ms (Views: 203.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-02-24 06:28:43 +0100
+Processing by ManageController#index as HTML
+  Rendering manage/index.html.erb within layouts/application
+  Rendered manage/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 214ms (Views: 207.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-02-24 06:28:44 +0100
+Processing by ManageController#index as HTML
+  Rendering manage/index.html.erb within layouts/application
+  Rendered manage/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-02-24 06:28:56 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Library/Ruby/Gems/2.6.0/gems/railties-5.2.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Library/Ruby/Gems/2.6.0/gems/railties-5.2.4.1/lib/rails/templates/rails/welcome/index.html.erb (2.0ms)
+Completed 200 OK in 12ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/manage/index" for ::1 at 2020-02-24 06:36:58 +0100
+Processing by ManageController#index as HTML
+  Rendering manage/index.html.erb within layouts/application
+  Rendered manage/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 213ms (Views: 207.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/manage/index" for ::1 at 2020-02-24 06:37:43 +0100
+Processing by ManageController#index as HTML
+  Rendering manage/index.html.erb within layouts/application
+  Rendered manage/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 193ms (Views: 186.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/manage/index" for ::1 at 2020-02-24 06:37:52 +0100
+Processing by ManageController#index as HTML
+  Rendering manage/index.html.erb within layouts/application
+  Rendered manage/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 190ms (Views: 183.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/manage/index" for ::1 at 2020-02-24 06:40:27 +0100
+Processing by ManageController#index as HTML
+  Rendering manage/index.html.erb within layouts/application
+  Rendered manage/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/ahmidimohamed/Desktop/H2c_ProjectNode/rubyh2c/h2xapp/app/views/manage/index.html.erb:10: syntax error, unexpected do, expecting end
+'.freeze; (1..10) do |i| 
+                  ^~
+/Users/ahmidimohamed/Desktop/H2c_ProjectNode/rubyh2c/h2xapp/app/views/manage/index.html.erb:15: syntax error, unexpected ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/manage/index.html.erb:10: syntax error, unexpected do, expecting end
+app/views/manage/index.html.erb:15: syntax error, unexpected ensure, expecting end-of-input
+app/controllers/manage_controller.rb:4:in `index'
+Started GET "/manage/index" for ::1 at 2020-02-24 06:40:39 +0100
+Processing by ManageController#index as HTML
+  Rendering manage/index.html.erb within layouts/application
+  Rendered manage/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/ahmidimohamed/Desktop/H2c_ProjectNode/rubyh2c/h2xapp/app/views/manage/index.html.erb:10: syntax error, unexpected do, expecting end
+'.freeze; (1...10) do |i| 
+                   ^~
+/Users/ahmidimohamed/Desktop/H2c_ProjectNode/rubyh2c/h2xapp/app/views/manage/index.html.erb:15: syntax error, unexpected ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/manage/index.html.erb:10: syntax error, unexpected do, expecting end
+app/views/manage/index.html.erb:15: syntax error, unexpected ensure, expecting end-of-input
+app/controllers/manage_controller.rb:4:in `index'
+Started GET "/manage/index" for ::1 at 2020-02-24 06:41:19 +0100
+Processing by ManageController#index as HTML
+  Rendering manage/index.html.erb within layouts/application
+  Rendered manage/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 186ms (Views: 180.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/manage/index" for ::1 at 2020-02-24 07:15:21 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/manage/index"):
+  
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/manage/index" for ::1 at 2020-02-24 07:15:26 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/manage/index"):
+  
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/manage/home" for ::1 at 2020-02-24 07:15:29 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/manage/home"):
+  
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/manage/index" for ::1 at 2020-02-24 07:16:26 +0100
+Processing by ManageController#index as HTML
+  Rendering manage/index.html.erb within layouts/application
+  Rendered manage/index.html.erb within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     7: <p>Find me in app/views/manage/index.html.erb</p>
+     8: <p>Hy ahmidi mohamed</p>
+     9: 
+    10: <% @arr.each do |item| %>
+    11: <%= "fruist #{item}"  %>
+    12:     <% end %>
+  
+app/views/manage/index.html.erb:10:in `_app_views_manage_index_html_erb___3672181171727414060_70214847137560'
+app/controllers/manage_controller.rb:4:in `index'
+Started GET "/manage/index" for ::1 at 2020-02-24 07:17:03 +0100
+Processing by ManageController#index as HTML
+  Rendering manage/index.html.erb within layouts/application
+  Rendered manage/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 198ms (Views: 192.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/manage/index" for ::1 at 2020-02-24 07:17:26 +0100
+Processing by ManageController#index as HTML
+  Rendering manage/index.html.erb within layouts/application
+  Rendered manage/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 196ms (Views: 190.3ms | ActiveRecord: 0.0ms)
+
+
